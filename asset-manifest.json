@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/BCS-CARE/static/css/main.3777498a.css",
+    "main.js": "/BCS-CARE/static/js/main.a549cab7.js",
+    "static/js/453.494fcf0f.chunk.js": "/BCS-CARE/static/js/453.494fcf0f.chunk.js",
+    "static/media/StartYour.png": "/BCS-CARE/static/media/StartYour.370b4904a315254ee196.png",
+    "static/media/showTitle2.png": "/BCS-CARE/static/media/showTitle2.2e94514aa3943ab9264f.png",
+    "static/media/HeartRate.jpg": "/BCS-CARE/static/media/HeartRate.eb4202f83232198dbd5b.jpg",
+    "static/media/StartYour2.png": "/BCS-CARE/static/media/StartYour2.691a125a0f39106a4ad3.png",
+    "static/media/startrecord.png": "/BCS-CARE/static/media/startrecord.217b008138e6b696283d.png",
+    "static/media/Vital.jpg": "/BCS-CARE/static/media/Vital.5dc9d421c8eb981bba92.jpg",
+    "static/media/Lungs.jpg": "/BCS-CARE/static/media/Lungs.813b698922b8ef925d1c.jpg",
+    "static/media/SurveyYes.png": "/BCS-CARE/static/media/SurveyYes.59a801219c93975c08cf.png",
+    "static/media/Position.png": "/BCS-CARE/static/media/Position.51fd717926c241545307.png",
+    "static/media/step3.jpg": "/BCS-CARE/static/media/step3.cfa4f585ff79e1cdd1ab.jpg",
+    "static/media/step2.jpg": "/BCS-CARE/static/media/step2.9d855ecf3cb8e0da5753.jpg",
+    "static/media/step1.jpg": "/BCS-CARE/static/media/step1.bf5c8b58830d4464a855.jpg",
+    "static/media/hi.png": "/BCS-CARE/static/media/hi.d368938e57fa932faf7c.png",
+    "static/media/lungs.png": "/BCS-CARE/static/media/lungs.a65181745d8eb814456f.png",
+    "static/media/heart.png": "/BCS-CARE/static/media/heart.c412cbaead4744166c20.png",
+    "static/media/clock.png": "/BCS-CARE/static/media/clock.ea629724e6525cac0186.png",
+    "static/media/thermometer.png": "/BCS-CARE/static/media/thermometer.f74c9084e0edb6145852.png",
+    "static/media/heartrate.png": "/BCS-CARE/static/media/heartrate.a0c417d2f101838bd887.png",
+    "index.html": "/BCS-CARE/index.html",
+    "main.3777498a.css.map": "/BCS-CARE/static/css/main.3777498a.css.map",
+    "main.a549cab7.js.map": "/BCS-CARE/static/js/main.a549cab7.js.map",
+    "453.494fcf0f.chunk.js.map": "/BCS-CARE/static/js/453.494fcf0f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3777498a.css",
+    "static/js/main.a549cab7.js"
+  ]
+}
