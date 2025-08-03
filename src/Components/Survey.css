@@ -1,0 +1,294 @@
+
+.survey-content {
+  padding: 15px;
+  padding-bottom: 40px;
+}
+
+.survey-header {
+  text-align: center;
+  margin-bottom: 17px;
+}
+
+.completion-icon {
+  font-size: 64px;
+}
+
+.survey-header h2 {
+  font-size: 24px;
+  font-weight: 600;
+ color: #55cb53;
+  margin-bottom: 8px;
+}
+
+.survey-header p {
+  color: #8e8e93;
+  font-size: 14px;
+}
+
+.survey-form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.ios-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1c1c1e;
+}
+
+.temperature-input {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.temperature-input .ios-input {
+  padding-right: 50px;
+}
+
+.temperature-unit {
+  position: absolute;
+  right: 16px;
+  color: #8e8e93;
+  font-weight: 500;
+}
+
+.question-item {
+  padding: 5px 0;
+  border-bottom: 1px solid #f2f2f7;
+}
+
+.question-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.question-label {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  color: #1c1c1e;
+  margin-bottom: 12px;
+}
+
+.answer-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.answer-button {
+  flex: 1;
+  padding: 8px;
+  border: 2px solid #e5e5ea;
+  border-radius: 12px;
+  background: white;
+  color: #1c1c1e;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.answer-button:hover {
+  border-color: #007aff;
+  background: rgba(0, 122, 255, 0.05);
+}
+
+.answer-button.selected {
+  border-color: #007aff;
+  background: #007aff;
+  color: white;
+}
+
+.submit-button {
+  width: 100%;
+  font-size: 18px;
+  padding: 18px;
+  margin-top: 20px;
+}
+
+
+.completion-icon img{
+  width: 180px !important;
+}
+
+.pulse-ring2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+     width: 80px;
+    height: 80px;
+  border: 2px solid #4CAF50;
+  border-radius: 50%;
+  opacity: 0;
+  animation: pulseRing 2s infinite;
+}
+
+@keyframes pulseRing2 {
+  0% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(0.4);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1.4);
+  }
+}
+
+
+/* Unit toggle */
+.unit-toggle {
+  display: flex;
+  justify-content: center;
+  /* width: 100%; */
+  padding: 8px ;
+      gap: 7px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.sdsfsdf{
+      padding: 5px 20px 15px 20px !important;
+;
+}
+
+.unit-btn {
+  background: white;
+  border: none;
+  padding: 6px 12px;
+  font-size: 14px;
+      border: 1px solid #e7e7e7;
+  cursor: pointer;
+  font-weight: 500;
+  color: #1c1c1e;
+  transition: background 0.2s, color 0.2s;
+}
+
+.unit-btn.active {
+  background: #007aff;
+  color: white;
+}
+
+.temperature-status-wrapper {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.status-label {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.thermometer {
+  position: relative;
+  height: 12px;
+  background: #f2f2f7;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.thermometer-fill {
+  height: 100%;
+  width: 0%;
+  transition: width 0.3s ease;
+  border-radius: 6px 0 0 6px;
+}
+
+.thermometer-scale {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  margin-top: 4px;
+  color: #8e8e93;
+}
+
+
+/* Yes = red, No = green variants */
+/* .answer-button.yes {
+  border-color: #dc354521;
+} */
+/* .answer-button.yes:hover {
+  background: rgba(220, 53, 69, 0.1);
+  border-color: #b02a37;
+} */
+.answer-button.yes.selected {
+    background: #f1485840;
+    color: black;
+    border-color: #dddddd;
+}
+
+.answer-button.no {
+  border-color: #28a7452b;
+}
+/* .answer-button.no:hover {
+  background: rgba(40, 167, 69, 0.1);
+  border-color: #1e7e33;
+} */
+.answer-button.no.selected {
+    background: #43ff6e2e;
+    color: black;
+    border-color: #28a7451f;
+}
+
+
+.ios-input::placeholder {
+  color: rgba(0, 0, 0, 0.2); /* very light gray */
+  font-weight: 400;
+}
+
+/* If you support dark mode too: */
+@media (prefers-color-scheme: dark) {
+  .ios-input::placeholder {
+    color: rgba(255, 255, 255, 0.2);
+  }
+}
+
+
+.wedw_jmii {
+  position: relative;
+  overflow: visible; /* content can overflow if needed */
+  z-index: 1;
+}
+
+.wedw_jmii::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0; /* ✅ place image on the right */
+  bottom: 0;
+  width: 50%; /* adjust how much space image covers */
+  background-image: var(--bg-image);
+  background-repeat: no-repeat;
+  background-position: right center; /* align image to right */
+  background-size: cover;
+  opacity: 0.7; /* only image opacity */
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Optional: if you want a subtle overlay to ensure readability */
+.wedw_jmii::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 50%;
+  background: rgba(255, 255, 255, 0.2); /* tweak or remove */
+  pointer-events: none;
+  z-index: 0;
+}
+
+
+.wdq_hhdd{
+  background: linear-gradient(135deg, #ff00f72e, #5856d6b0);
+}
+
+.dsdcwdeee{
+  background-color: #fffcfc !important;
+;
+}

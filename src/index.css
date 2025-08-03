@@ -1,0 +1,9 @@
+
+
+.DraftEditor-root {
+  background: #fff;
+  border: 1px solid #ccc;
+  cursor: text;
+  padding: 15px;
+  min-height: 400px;
+}
